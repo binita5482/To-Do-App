@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] })
-    base: '/'
+    babel({ presets: [reactCompilerPreset()] }),
+    base: '/https://binita5482.github.io/To-Do-App/' ,
   ],
 })

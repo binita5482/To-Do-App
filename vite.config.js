@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
-    base: '/To-Do-App/' ,
   ],
   base: '/To-Do-App/' ,
 })
